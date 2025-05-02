@@ -26,52 +26,5 @@ Commit message 參考 [Conventional Commits](https://www.conventionalcommits.org
     perf: reduce login API response time 
     test: add unit test for login API
     ```
-## 😎本地第一次存專案Repo
-![image](https://hackmd.io/_uploads/HkjBdufegl.png)
-
-👉進入[專案Repo](https://github.com/LeoChen517/F2E-first-group-project) → Open with GitHub Desktop
-![image](https://hackmd.io/_uploads/rJ1QtOGgll.png)
-👉Clone
-![image](https://hackmd.io/_uploads/HyoOYOMexl.png)
-👉Open in VScode
-
-
-    
-## ⭐開發流程：
-1. 抓遠端最新dev
-    ```bash
-    git checkout dev
-    git pull origin dev
-    ```
-2. 到[專案Repo](https://github.com/LeoChen517/F2E-first-group-project/issues)認領issue。
-![image](https://hackmd.io/_uploads/BkjG5DGlgl.png)
-3. Assignees：Assign yourself
-4. Development：Create a branch
-![image](https://hackmd.io/_uploads/SJtrjwfgge.png)
-5. Branch source : dev *(其他選項不變)*
-6. Create branch
-![image](https://hackmd.io/_uploads/Syq73vMegg.png)
-7. 複製到終端機即可開始製作。
-8. 製作完成後，執行以下指令提交
-*（依據實際修改內容替換 type、summary)*
-    ```bash
-    git add .
-    git commit -m"type: summary"
-    git push
-    ``` 
-9. 到[專案PR](https://github.com/LeoChen517/F2E-first-group-project/pulls)。
-![image](https://hackmd.io/_uploads/Hy0f0wGggg.png)
-10. Compare & pull request
-![image](https://hackmd.io/_uploads/HkM8y_zxeg.png)
-11. base : dev
-12. Create pull request
-
-## ⭐審核組員PR流程：
-1. 到[專案PR](https://github.com/LeoChen517/F2E-first-group-project/pulls)選擇Open中的PR。 
-![image](https://hackmd.io/_uploads/r1ijzdGlgl.png)
-2. Files changes *(在畫面中上方)*
- ![image](https://hackmd.io/_uploads/r1XMbdMgxe.png)
-3. Reviews changes
-4. Approve
-5. Submit reviews
-6. PR合併之後關閉issue、刪除分支。
+## 操作方式參考notion
+[link](https://www.notion.so/git-workflow-1e7236e4fb4580b6b61ccf17f61ae168?pvs=4)，
