@@ -49,10 +49,9 @@ xxx
 
 ## 分支與開發規範
 1. **`main`**：穩定分支，只有經過測試並且確保能部署的代碼才會合併。
-2. **`develop`**：開發分支，所有新功能、bug 修復應該從這裡開始。
-3. **`feature/功能名稱`**：開發新功能的分支，完成後合併到 `develop`。
-4. **`bugfix/bug名稱`**：修復 bug 的分支，完成後合併回 `develop`。
-5. **`hotfix/修補名稱`**：緊急修復分支，直接從 `main` 切出，完成後合併回 `main` 和 `develop`。
+2. **`feature/功能名稱`**：開發新功能的分支，完成後合併到 `develop`。
+3. **`bugfix/bug名稱`**：修復 bug 的分支，完成後合併回 `develop`。
+4. **`hotfix/修補名稱`**：緊急修復分支，直接從 `main` 切出，完成後合併回 `main` 和 `develop`。
 
 ## 提交規範
 Commit message 使用 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 規範
@@ -68,39 +67,14 @@ refactor：代碼重構，不涉及功能變更
 perf：性能優化
 test：測試
 ```
-- **scope**：表示變更所涉及的範圍
-  - 功能模塊：
-  ```
-    auth: 認證相關的功能（例如，登入、註冊功能）。
-    ui: 用戶界面相關的變更（例如，按鈕樣式、頁面布局）。
-    api: API 相關的變更（例如，新增或修改 API 端點）。
-    database: 資料庫相關的變更（例如，新增資料表或字段）。
-    security: 安全性相關的修改（例如，密碼加密、漏洞修復）。
-  ```
-  - 範疇相關：
-  ```
-    frontend: 前端部分的改動。
-    backend: 後端部分的改動。
-    devops: CI/CD 相關的變更（例如，部署腳本、服務器配置）。
-    testing: 測試相關的變更（例如，新增測試案例、修改測試邏輯）。
-    build: 構建相關的變更（例如，修改打包配置、升級打包工具）。
-  ```
-  - 其他具體範疇：
-  ```
-    docs: 文檔相關的改動（例如，更新 README）。
-    style: 代碼風格相關的變更（例如，格式化代碼、調整縮排）。
-    chore: 其他雜項工作（例如，更新依賴包、修改配置文件）。
-    config: 配置相關的變更（例如，修改配置文件，添加環境變數）。
-    migration: 資料庫遷移或數據結構改動。
-  ```
 - **summary**：簡短描述，說明變更的目的或內容。
 #### 示例：
 ```
-feat(auth): add login functionality 
-fix(button): resolve button color issue
-refactor(auth): simplify login logic 
-perf(auth): reduce login API response time 
-test(auth): add unit test for login API
+feat: add login functionality 
+fix: resolve button color issue
+refactor: simplify login logic 
+perf: reduce login API response time 
+test: add unit test for login API
 ```
 
 ## 如何進行 Pull Request：
